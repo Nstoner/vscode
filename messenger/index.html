@@ -5,105 +5,115 @@
             messenger
         </title>
         <link rel="stylesheet" href="style.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     </head>
 
     <body>
-        <!--header-->
-        <div class="hdcontainer">
-            <img src="messengerphoto.png" class="mgphoto"/>
-            <div class="hditemcontainer">
-                <a class="hditem">
+        <div class="maincontainer">
+            <!--header-->
+            <div class="header">
+                <div class="headericon">
+                    <img src="messengerphoto.png"  class="icon"/>
+                </div>
+                <div class="rightheader">
+                    <a href="https://www.messenger.com/features" class="hditem">
                     Feature
-                </a>
-                <a class="hditem">
-                Desktop App
-                </a>
-                <a class="hditem">
-                    Privacy & Safety
-                </a>
-                <a class="hditem">
-                    For Developers
-                </a>
+                    </a>
+                    <a href="https://www.messenger.com/desktop" class="hditem">
+                        Desktop App
+                    </a>
+                    <a href="https://www.messenger.com/privacy" class="hditem">
+                        Privacy & Safety
+                    </a>
+                    <a herf="https://developers.facebook.com/products/messenger/" class="hditem">
+                        For Developers
+                    </a>
+                </div>
             </div>
-        </div>
 
-        <!--section-->
-        <div class="container">
-            <div class="left">
-                <div class="hangout">
-                    Hang out<br/> anytine, anywhere
-                </div>
-                <div class="Messengertext">
-                    Messenger make it easy and fun to stay close to your favorite people.
-                </div>
-    
-                
-                <div>
-                    <input type="text" class="inputmb"/>
-                </div>
-                
-                <div>
-                    <input type="password" class="inputmb"/>
-                </div>
-                
-                
-                <div>
-                    <button>
-                        Log in
-                </button>
-                
-                <a>
-                    Forgot your password?
-                </a>
-                </div>
-                
-                
-                <input type="checkbox"/>
-                
-                
-                <span>Keep me singed in</span>
-                
-                <div class="appstore">
-                    <div class="appstoreimg appleimg">
-                        <img src="./icons/appstore.svg"/>
+            <!--section-->
+            <div class="container">
+                <div class="left">
+                    <div style="color: #B63DE3" class="hangout">
+                        <span>Hang out<br/> anytine, anywhere</span>
                     </div>
-    
-                    <div class="appstoreimg microsoftimg">
-                        <img src="./icons/microsoft.svg"/>
+                    <div class="Messengertext mg-bt">
+                        Messenger make it easy and fun to stay close to your favorite people.
+                    </div>
+
+                    <div class="form mg-bt">
+                        <div class="input mg-bt">
+                            <input type="text" class="" placeholder="Enter your email address"/>
+                        </div>
+                        
+                        <div class="input mg-bt">
+                            <input type="password" class="" placeholder="Enter your password"/>
+                        </div>
+                        
+                        
+                        <div class="mg-bt">
+                            <button type="button" class="btn btn-success">
+                                Log in
+                        </button>
+                        
+                        <a>
+                            Forgot your password?
+                        </a>
+                        </div>
+                        
+                        
+                        <input type="checkbox"/>
+                        
+                        
+                        <span>Keep me singed in</span>
                     </div>
                     
+                    
+                    
+                    <div class="appstore">
+                        <div class="appstoreimg appleimg">
+                            <img src="./icons/appstore.svg"/>
+                        </div>
+        
+                        <div class="appstoreimg microsoftimg">
+                            <img src="./icons/microsoft.svg"/>
+                        </div>
+                        
+                    </div>
                 </div>
+                
+                <div class="right">
+                    <img src="icons/adphoto.png" class="rightimg">
+                </div>
+                
             </div>
-            <div class="right">
-                <img src="icons/adphoto.png"/>
-            </div>
+
+            <!--footer-->
+            <footer>      
+                <div class="mg-bt">
+                    <b>Meta 2022.</b>
+                    <span>
+                        The Apple and Google Play logos are trademarks of their respective owners.
+                    </span>
+                </div>
+                <div class="ftitems mg-bt">
+                    <a href="https://www.facebook.com/privacy/explanation" class="ftitem">
+                        Data Policy
+                    </a>
+                    <a href="https://messenger.com/policy/cookies" class="ftitem">
+                        Cookie Policy
+                    </a>
+                    <a href="https://www.facebook.com/policies/?ref=pf" class="ftitem">
+                        Terms
+                    </a>
+                </div>
+                <div>
+
+                </div>
+                <div>
+                    <span>from</span><b style="color: #B63DE3;">FACEBOOK</b>
+                </div>
+            </footer>
         </div>
-
-        <!--footer-->
-        <footer>
-            <div>
-                <b>Meta 2022.</b>
-                <span>
-                    The Apple and Google Play logos are trademarks of their respective owners.
-                </span>
-            </div>
-            <div>
-                <a>
-                    Data Policy
-                </a>
-                <a>
-                    Cookie Policy
-                </a>
-                <a>
-                    Terms
-                </a>
-            </div>
-            <div>
-
-            </div>
-            <div>
-                <span>from</span><b>FACEBOOK</b>
-            </div>
-        </footer>
     </body>
 </html>

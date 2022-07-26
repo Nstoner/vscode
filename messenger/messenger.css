@@ -1,0 +1,13 @@
+.header {
+    background-color: aqua;
+}
+
+.container {
+    background-color: blue;
+    display: flex;
+    width: 100px;
+}
+
+.footer {
+     background-color: blueviolet;
+}

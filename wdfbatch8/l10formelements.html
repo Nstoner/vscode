@@ -44,14 +44,79 @@
             <label>Fruit</label>
             <input type="radio" name="fruit" id="apple" class="" value="1"/><label for="apple">Apple</label>
             <input type="radio" name="fruit" id="orange" class=""/><label for="orange">Orange</label>
-            <input type="radio" name="fruit" id="pineapple" class=""/><label for="pineapple">Pineapple</label>
+            <input type="radio" name="fruit" id="pineapple" class=""checked/><label for="pineapple">Pineapple</label>
 
             <br><br/>
 
             <label>Choose your fav colors</label>
             <input type="checkbox" name="color" id="red" class="" value="1" /> <label for="red">Red</label>
             <input type="checkbox" name="color" id="blue" class="" value="2" /> <label for="blue">Blue</label>
-            <input type="checkbox" name="color" id="green" class="" value="3" /> <label for="green">Green</label>
+            <input type="checkbox" name="color" id="green" class="" value="3" checked /> <label for="green">Green</label>
+
+            <br><br>
+
+            <label for="country">Citizen</label>
+            <select name="country" id="country" class="">
+                <option selected disabled>Choose Country</option>
+                <option value="mm">Myanmar</option>
+                <option value="th">Thailand</option>
+                <option value="php">Philippine</option>
+                <option value="indo">Indonesia</option>
+                <option slk>Srilanka</option>
+            </select>
+
+            <br/><br/>
+
+            <lebe for="role">Role</lebe>
+            <select name="role" id="role" class="" multiple>
+                <option value="1">Manager</option>
+                <option value="2">Editor</option>
+                <option value="3">Supervisor</option>
+                <option value="4">Sales</option>
+            </select>
+
+            <br/><br/>
+
+            <lebel for="dob">DOB</lebel>
+            <input type="date" name="dob" id="dob" class="" />
+
+            <br/><br/>
+
+            <level for="bok">Booking Time</level>
+            <input type="time" name="bok" id="bok" class="" />
+
+            <br/><br/>
+
+
+            <lebel for="apt">Appointment</lebel>
+            <input type="datetime-local" name="apt" id="apt" class="" />
+
+            <br><br/>
+
+            <lebel for="vol">Volume</lebel>
+            <input type="range" name="vol" id="vol" class="" value="40" min="0" max="100" step="10"/>
+
+            <br/><br/>
+
+            <lebel for="bio">Bio</lebel>
+            <textarea name="bio" id="bio" class="" placeholder="Write Something..." ></textarea>
+
+
+            <br/><br/>
+
+            <lebel for="nrc">NRC</lebel>
+            <input type="file" name="nrc" id="nrc" class="" />
+
+            <br/><br/>
+
+            <lebel for="vdo">video file</lebel>
+            <input type="file" name="vdo" id="vdo" class="" multiple />
+
+            <br/><br/>
+
+            
+
+
         </form>
 
 
@@ -60,4 +125,4 @@
 </html>
 
 
-
+<!--stan alone attribute= selected/disabled/checked-->

@@ -1,57 +1,101 @@
-.hdcontainer {
+.maincontainer {
+    margin: 0 auto;
+    width: 1024px;
+    
+}
+
+.header {
     display: flex;
-   justify-content: space-between;
-   
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;
 }
 
-.mgphoto {
-    width: 30px;
-  
+
+.icon {
+    width: 60px;
+    padding: 6px 10px;
 }
 
-.hditemcontainer {
+.rightheader {
     display: flex;
-    justify-content: space-around;
-    width: 500px;
 }
 
+.hditem {
+    margin-left: 25px;
+    padding: 10px;
+    
+}
+
+/*body*/
 .container {
     display: flex;
+    width: 1024px;
+
 }
 
 .left {
-    margin-top: 60px;
-    width: 45%;
+    width: 500px;
 }
 
 .right {
     width: 45%;
 }
 
+.rightimg {
+    width: 100%;
+}
+
 .hangout {
     font-size: 60px;
-    color: rgb(105,80,255);
-    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 450;
+    
 }
 
 .Messengertext {
-    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: lighter;
+    
 }
 
-.inputmb {
-    margin-bottom: 10px;
+input {
+    border-radius: 9px;
+    border-width: 5px;
+    border-color: rebeccapurple;
+}
+
+.form {
+    
+}
+
+/*mg-bt=margin-bottom*/
+.mg-bt {
+    margin-bottom: 10px
 }
 
 .appstore {
     width: 250px;
     display: flex;
+    justify-content: space-between;
 }
 
 .appstoreimg {
-    width: 50%;
+    width: 45%;
+
 }
 
+footer {
+    margin: 100px auto 0;
+    width: 700px;
+    height: 100px;
+    text-align: center;
+}
 
+.ftitems {
 
+}
 
-
+.ftitem {
+    margin-left: 10px;
+}
